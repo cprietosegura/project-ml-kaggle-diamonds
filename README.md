@@ -16,4 +16,5 @@ Finalmente utilicé la librería `Pickle` para salvar el modelo entrenado y apli
 
 ### Overview
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/cprietosegura/project-ml-kaggle-diamonds/blob/master/output/overview.jpg)
+
