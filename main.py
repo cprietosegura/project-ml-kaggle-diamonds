@@ -27,16 +27,19 @@ models_2submission={
 #inicialmente utilizo este bucle para probar varios modelos, después me quedo con Random Forest Regressor
 #for modelName, model in models.items():
 #    print("Training model: {}".format(modelName))
- #   mod=getModelScore(diamonds, model)
-  #  saveTrainedModel(mod,"{}".format(modelName))
-   # prepareSubmission('./models/{}.sav'.format(modelName),'{}'.format(modelName))
-    #print('CSV Generado')
-    #print('--------')"""
+#    mod=getModelScore(diamonds, model)
+#    saveTrainedModel(mod,"{}".format(modelName))
+#    prepareSubmission('./models/{}.sav'.format(modelName),'{}'.format(modelName))
+#    print('CSV Generado')
+
 
 print('Entrenando modelo')
 randomf=(getModelScore(diamonds,RandomForestRegressor(n_estimators=250)))
+
 print('Modelo entrenado')
-saveTrainedModel(randomf,'randomforest_prueba')
+saveTrainedModel(randomf,'randomforest')
+
 print('Modelo salvado')
-prepareSubmission('./models/randomforest_prueba.sav','randomforest_prueba')
+prepareSubmission('./models/randomforest.sav','randomforest')
+
 print('CSV generado')
