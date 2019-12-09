@@ -1,6 +1,6 @@
 # Project ML | Diamonds kaggle competition
 
-En este proyecto he desarrollado un modelo de machine learning con la `Scikit-learn` de `Python` para predecir el precio de los diamantes a partir de un dataset de Kaggle. Asimismo, el proyecto forma parte de una competición de Kaggle.
+En este proyecto he desarrollado un modelo de machine learning con la librería `Scikit-learn` de `Python` para predecir el precio de los diamantes a partir de un dataset de Kaggle. Asimismo, el proyecto forma parte de una competición de Kaggle.
 
 ## Proceso
 
